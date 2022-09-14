@@ -135,6 +135,7 @@ for file in files:
     for col in snpsDF.columns[:-4]: new_cols.append(f"{chrom}:{col}")
     new_cols.extend(['HapNo.', 'Counts', 'μ.Trait', 'Percentile'])
     snpsDF.columns = new_cols
+    snpsDF.to_csv(f"{out_dir}/{file.replace('.haps.csv', '.raw.csv')}", index=False)
     
     #make colour coded table & write as PDF
     fig, ax = plt.subplots(figsize=(12, 4))
