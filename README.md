@@ -14,20 +14,19 @@ You must have BCFTOOLS and SNPEFF software installed on your system (see riceExp
 
 The  `BPH_Annot_vars` file, requires the following variable set:
 
-"fldr" - a folder to be created for processed output files
-
-"figs_out" - a folder to be created for graphical outputs
-"genes" - a file of gene regions to be evaluated e.g. `bph_genes.csv`
-"samps" - a file listing gvcf paths e.g., `kpp_AUC_paths.csv`
-"data" - trait data with columns 'acc' and 'trait' e.g., `kpp_AUC.csv` # NB if you use `reduci.bash` you need a dummy 'trait' column
-"gene_id" - suffix of annotated genes e.g. 'gene'
-"db_id" - prefices of database gvcf files (e.g. 'W_OS_' - ALL files must start with same suffix) 
-"db" - Name of snpEff database required e.g. Oryza_sativa                     
-"chrom" - Chromosomes column number in "genes" file
-"loc_col" - Annotated gene names column number in "genes"  file
-"first" - Column number of first base positions in "genes" file
-"end" - Column number of end base positions in "genes" file
-"nChroms" - No. of chromosomes for the organism
+"fldr" - a folder to be created for processed output files<br/>
+"figs_out" - a folder to be created for graphical outputs<br/>
+"genes" - a file of gene regions to be evaluated e.g. `bph_genes.csv`<br/>
+"samps" - a file listing gvcf paths e.g., `kpp_AUC_paths.csv`<br/>
+"data" - trait data with columns 'acc' and 'trait' e.g., `kpp_AUC.csv` # NB if you use `reduci.bash` you need a dummy 'trait' column<br/>
+"gene_id" - suffix of annotated genes e.g. 'gene'<br/>
+"db_id" - prefices of database gvcf files (e.g. 'W_OS_' - ALL files must start with same suffix) <br/>
+"db" - Name of snpEff database required e.g. Oryza_sativa <br/>
+"chrom" - Chromosomes column number in "genes" file<br/>
+"loc_col" - Annotated gene names column number in "genes"  file<br/>
+"first" - Column number of first base positions in "genes" file<br/>
+"end" - Column number of end base positions in "genes" file<br/>
+"nChroms" - No. of chromosomes for the organism<br/>
 
 
 
