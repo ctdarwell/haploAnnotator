@@ -7,7 +7,7 @@ This pipeline annotates all functional variants in a stipulated gene region givi
 
 It differs from riceExplorer as it uses a single crop panel with phenotypic data against each accession. See the CSV files for formatting. Run as `./BPH_Annot.bash` after modifying the `BPH_Annot_vars` file.
 
-There is also the option of running the pipeline without pheontypic data to simply out a graphical illustration of functional variants within genes without associated trait means (please run `reduci.bash`).
+There is also the option of running the pipeline without pheontypic data to simply out a graphical illustration of functional variants within genes without associated trait means (please run `reduci.bash` after mofiying variable in reduci_vars`).
 
 
 You must have BCFTOOLS and SNPEFF software installed on your system (see riceExplorer docs)
