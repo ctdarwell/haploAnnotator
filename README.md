@@ -15,6 +15,7 @@ You must have BCFTOOLS and SNPEFF software installed on your system (see riceExp
 The  `BPH_Annot_vars` file, requires the following variable set:
 
 "fldr" - a folder to be created for processed output files
+
 "figs_out" - a folder to be created for graphical outputs
 "genes" - a file of gene regions to be evaluated e.g. `bph_genes.csv`
 "samps" - a file listing gvcf paths e.g., `kpp_AUC_paths.csv`
