@@ -1,0 +1,14 @@
+fldr=kpp_AUC	 	## 1. work folder [to be created]
+figs_out=kpp_AUC_figs        ##
+genes=bph_genes.csv          ## 2. List of genes being examined - FORMAT FOLLWS MSU DOWNLOAD! (NB msu_ver7_simple.csv is a simplified version of downloaded annotated genes from MSU)
+samps=kpp_AUC_paths.csv	     	## 4. paths to IRRI gvcf files - NO ESSENTIAL FORMAT
+data=kpp_AUC.csv 	      	## 5. corresponding IRRI trait data
+all_msu=msu_ver7_simple.csv	    	## 8. reqd for figure output pgm for abridged test datasets so idd_genes are included
+gene_id=LOC                      ## 9. suffix of annotated genes (this is LOC from MSU); NB please READ GitHub notes
+db_id=W_OS_                          ## 10. prefices of database gvcf files (ALL files must start with same suffix) 
+db=Oryza_sativa                     ## 14. Name of snpEff database required
+chrom=1                             ## 15. Chromosomes column number in [2]
+loc_col=2                           ## 16. Annotated gene names column number in [2]
+first=4                             ## 17. Column number of first base positions in [2]
+end=5                               ## 18. Column number of end base positions in [2]
+nChroms=12                          ## 19. No. of chromosomes for the organism
